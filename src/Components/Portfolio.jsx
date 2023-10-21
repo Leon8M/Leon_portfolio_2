@@ -32,7 +32,7 @@ const imageAltText = "desktop with books and laptop";
 const projectList = [
   {
     title: "My Original Portfolio",
-    image: "port.png",
+    image: "mamika.png",
     description: "Github repo containing all the code for my first instance of a Portfolio.",
     url: "https://github.com/Leon8M/Portfolio",
   },
@@ -71,7 +71,6 @@ const projectList = [
     url: "https://medium.com/@Leonmunene/how-software-engineers-can-decrease-the-chance-of-ones-job-being-replaced-by-ai-in-the-near-or-far-4d0fb84dc0a1",
   },
 ];
-
 const Portfolio = () => {
   return (
     <section className="padding" id="portfolio">
@@ -95,16 +94,6 @@ const Portfolio = () => {
               <a href={project.url} target="_blank" rel="noopener noreferrer">
                 <h3 style={{ flexBasis: "40px" }}>{project.title}</h3>
               </a>
-              <img
-                src={require(`../images/${project.image}`)}
-                style={{
-                  height: "90%",
-                  width: "100%",
-                  objectFit: "cover",
-                  animation: "1s ease-out 0s 1 slideIn",
-                }}
-                alt=""
-              />
               <p className="small">{project.description}</p>
             </div>
           ))}
