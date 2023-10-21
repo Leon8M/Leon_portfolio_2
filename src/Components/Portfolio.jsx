@@ -31,28 +31,38 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
-    description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
-  },
-  {
-    title: "Web Development for Beginners",
-    description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+    title: "My Original Portfolio",
+    description: "Github repo containing all the code for my first instance of a Portfolio.",
+    url: "https://github.com/Leon8M/Portfolio",
   },
   {
     title: "My Resume Site",
-    description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+    description: "This is the Github repo containing all code for this site.",
+    url: "https://github.com/Leon8M/Leon_portfolio_2",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Anthony Njeru's Portfolio",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Portfolio website for a customer, Anthony, who is an auditor. Contains all infomation required for his hiring.",
+    url: "https://anthonykimathi.netlify.app/",
+  },
+  {
+    title: "Mamika Creations Website",
+    description:
+      "Website to cater for the business of Mamika Creations, an art company for all things abstract and acrylic.",
+    url: "https://mamikacreations.netlify.app/",
+  },
+  {
+    title: "The Lazy Revolution: How Innovation Shapes Our Lives and Our Laziness",
+    description: "Blog on how the rise in technological innovation influences our way of life.",
+    url: "https://medium.com/@Leonmunene/the-lazy-revolution-how-innovation-shapes-our-lives-and-our-laziness-5df9239b8cee",
+  },
+  {
+    title:
+      "How Software engineers can decrease the chance of ones job being replaced by AI in the near or far future",
+    description:
+      "Blog on how software engineers can secure their jobs during this technological age.",
+    url: "https://medium.com/@Leonmunene/how-software-engineers-can-decrease-the-chance-of-ones-job-being-replaced-by-ai-in-the-near-or-far-4d0fb84dc0a1",
   },
 ];
 
