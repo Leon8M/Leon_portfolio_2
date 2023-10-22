@@ -19,9 +19,6 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
-
-const imageAltText = "desktop with books and laptop";
 
 /**
  * Project list
@@ -32,40 +29,40 @@ const imageAltText = "desktop with books and laptop";
 const projectList = [
   {
     title: "My Original Portfolio",
-    image: "mamika.png",
+    port_img: "image.jpg",
     description: "Github repo containing all the code for my first instance of a Portfolio.",
     url: "https://github.com/Leon8M/Portfolio",
   },
   {
     title: "My Resume Site",
-    image: "port.png",
+    port_img: "port.png",
     description: "This is the Github repo containing all code for this site.",
     url: "https://github.com/Leon8M/Leon_portfolio_2",
   },
   {
     title: "Anthony Njeru's Portfolio",
-    image: "port.png",
+    port_img: "port.png",
     description:
       "Portfolio website for a customer, Anthony, who is an auditor. Contains all infomation required for his hiring.",
     url: "https://anthonykimathi.netlify.app/",
   },
   {
     title: "Mamika Creations Website",
-    image: "port.png",
+    port_img: "port.png",
     description:
       "Website to cater for the business of Mamika Creations, an art company for all things abstract and acrylic.",
     url: "https://mamikacreations.netlify.app/",
   },
   {
     title: "The Lazy Revolution: How Innovation Shapes Our Lives and Our Laziness",
-    image: "port.png",
+    port_img: "port.png",
     description: "Blog on how the rise in technological innovation influences our way of life.",
     url: "https://medium.com/@Leonmunene/the-lazy-revolution-how-innovation-shapes-our-lives-and-our-laziness-5df9239b8cee",
   },
   {
     title:
       "How Software engineers can decrease the chance of ones job being replaced by AI in the near or far future",
-    image: "port.png",
+    port_img: "port.png",
     description:
       "Blog on how software engineers can secure their jobs during this technological age.",
     url: "https://medium.com/@Leonmunene/how-software-engineers-can-decrease-the-chance-of-ones-job-being-replaced-by-ai-in-the-near-or-far-4d0fb84dc0a1",
@@ -76,18 +73,6 @@ const Portfolio = () => {
     <section className="padding" id="portfolio">
       <h2 style={{ textAlign: "center" }}>Portfolio</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
-        <div style={{ maxWidth: "40%", alignSelf: "center" }}>
-          <img
-            src={image}
-            style={{
-              height: "90%",
-              width: "100%",
-              objectFit: "cover",
-              animation: "1s ease-out 0s 1 slideIn",
-            }}
-            alt={imageAltText}
-          />
-        </div>
         <div className="container">
           {projectList.map((project) => (
             <div className="box" key={project.title}>

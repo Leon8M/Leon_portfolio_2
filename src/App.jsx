@@ -12,7 +12,7 @@ import Header from "./Components/Header";
 import Home from "./Components/Home";
 import Portfolio from "./Components/Portfolio";
 import Education from "./Components/Education";
-import Skills from "./Components/Skills"
+import Skills from "./Components/Skills";
 
 import "./styles.css";
 
@@ -42,7 +42,7 @@ const secondaryColor = "#D2F1E4";
 
 const App = () => {
   return (
-    <div id="main">
+    <div id="main" key={siteProps.name}>
       <Header />
       <Home name={siteProps.name} title={siteProps.title} />
       <About />

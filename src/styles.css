@@ -3,6 +3,7 @@
 */
 
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Montserrat:wght@200;400;600;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 html,
 body {
@@ -46,6 +47,16 @@ section img.background {
   z-index: -1;
 }
 
+.header_links{
+  color: #1f1f1f;
+  font-family: 'Roboto', sans-serif;
+}
+
+.home_text{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
 h1 {
   font-family: "Cormorant Garamond", serif;
   font-size: 7rem;
@@ -86,6 +97,9 @@ hr {
   margin: 2.5rem;
 }
 
+ul{
+  columns: 2;
+}
 li {
   line-height: 1.7;
 }
@@ -131,5 +145,16 @@ img.socialIcon {
   }
   100% {
     transform: translateX(0);
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+  ul {
+    columns: 1;
+    gap: 0.2rem;
+    font-size: 0.75rem;
   }
 }

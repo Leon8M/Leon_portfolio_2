@@ -2,28 +2,22 @@ import React from "react";
 
 const skills = [
   {
-    skill: "HTML5"
-    
+    skill: "HTML5",
   },
   {
-    skill: "CSS3"
-    
+    skill: "CSS3",
   },
   {
-    skill: "Javascript"
-   
+    skill: "Javascript",
   },
   {
-    skill: "Git"
-   
+    skill: "Git",
   },
   {
-    skill: "Python"
-   
+    skill: "Python",
   },
   {
-    skill: "React.js"
-   
+    skill: "React.js",
   },
 ];
 
@@ -34,7 +28,7 @@ const Skills = () => {
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div className="container">
           {skills.map((project) => (
-            <div className="box" key={project.school}>
+            <div className="box" key={project.skill}>
               <h3 style={{ flexBasis: "40px" }}>{project.skill}</h3>
             </div>
           ))}
