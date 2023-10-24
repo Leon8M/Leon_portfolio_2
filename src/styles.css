@@ -157,4 +157,7 @@ img.socialIcon {
     gap: 0.2rem;
     font-size: 0.75rem;
   }
+  .home_text{
+    font-size: 50px;
+  }
 }
