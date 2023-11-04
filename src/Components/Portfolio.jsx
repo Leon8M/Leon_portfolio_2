@@ -79,18 +79,18 @@ const Portfolio = () => {
               <a href={project.url} target="_blank" rel="noopener noreferrer">
                 <h3 style={{ flexBasis: "40px" }}>{project.title}</h3>
               </a>
-              {
-                <img
-                  src={`../images/${project.image}`}
-                  style={{
-                    height: "90%",
-                    width: "100%",
-                    objectFit: "cover",
-                    animation: "1s ease-out 0s 1 slideIn",
-                  }}
-                  alt=""
-                />
-              }
+             // {
+               // <img
+                 // src={`../images/${project.image}`}
+                //  style={{
+                  //  height: "90%",
+                  //  width: "100%",
+                  //  objectFit: "cover",
+                 //   animation: "1s ease-out 0s 1 slideIn",
+                 // }}
+                 // alt=""
+               // />
+              //}
               <p className="small">{project.description}</p>
             </div>
           ))}
