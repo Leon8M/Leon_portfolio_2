@@ -81,15 +81,15 @@ const Portfolio = () => {
               </a>
               {
                 //<img
-                //src={`../images/${project.image}`}
-                // style={{
-                //height: "90%",
-                // width: "100%",
-                //  objectFit: "cover",
-                //  animation: "1s ease-out 0s 1 slideIn",
-                // }}
-                //alt=""
-                ///>
+                  //src={`../images/${project.image}`}
+                 // style={{
+                   // height: "90%",
+                   // width: "100%",
+                   // objectFit: "cover",
+                   // animation: "1s ease-out 0s 1 slideIn",
+                 // }}
+                 // alt=""
+               // />
               }
               <p className="small">{project.description}</p>
             </div>
